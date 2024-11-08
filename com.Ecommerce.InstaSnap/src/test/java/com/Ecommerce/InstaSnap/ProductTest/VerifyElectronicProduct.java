@@ -15,7 +15,7 @@ public class VerifyElectronicProduct extends BaseTest {
 	@Test(priority=2,invocationCount=2,dependsOnMethods="createProduct")
     public void updateProduct()
     {
-		 Reporter.log("ELECTRONIC PRODUCT UPDATED",true);;
+		 Reporter.log("ELECTRONIC PRODUCT UPDATED",true);;;
  
 		
     }
